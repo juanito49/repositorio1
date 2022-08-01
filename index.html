@@ -17,15 +17,18 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Recordarme</label>
       </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" id= "btn" onclick="clique()">Enviar</button>
     </form>
     <script language="javascript" type="text/javascript">
       <!--
-        document.write(correo + " \n ");
-        document.write(clave + " \n ");
+        var boton= document.getElementById('btn');
+        function clique(){
+          document.write(correo + " \n ");
+          document.write(clave + " \n ");
 //        var numbers = [4, 2, 5, 1, 3];
 //        document.write(numbers + " \n ");
 //        document.write(numbers.sort());
+        }  
       -->
     </script>
   </body>
