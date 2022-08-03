@@ -1,7 +1,6 @@
 <html>
 <?php
-     $nombre= $_POST["usuario"];
-     $contrasenia= $POST["clave"];
-     echo $nombre. " - ". $contrasenia;
+     echo $_POST["usuario"];
+     echo $POST["clave"];
 ?>
 </html>
