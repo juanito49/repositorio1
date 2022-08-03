@@ -1,3 +1,5 @@
 <?php
-     echo "PHP". usuario. " - ". clave;
+     $nombre= $_POST["usuario"];
+     $contrsenia= $POST["clave"];
+     echo "PHP". $nombre. " - ". $contraenia;
 ?>
